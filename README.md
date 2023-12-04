@@ -1,1 +1,1 @@
-Effiflow (BPM automation)
+Effiflow
