@@ -21,10 +21,18 @@ import {
   cilUser,
 } from '@coreui/icons'
 import CIcon from '@coreui/icons-react'
+import { useAuth } from '../../auth/userAuth';
 
 import avatar8 from './../../assets/images/avatars/photo.jpeg'
 
 const AppHeaderDropdown = () => {
+  const { logout } = useAuth();
+
+  const handleLogout = () => {
+    // Call the logout function when the "Log Out" option is clicked
+    logout();
+  };
+
   return (
     <CDropdown variant="nav-item">
       <CDropdownToggle placement="bottom-end" className="py-0" caret={false}>
@@ -32,7 +40,7 @@ const AppHeaderDropdown = () => {
       </CDropdownToggle>
       <CDropdownMenu className="pt-0" placement="bottom-end">
         <CDropdownHeader className="bg-light fw-semibold py-2">Account</CDropdownHeader>
-        <CDropdownItem href="http://localhost:3000/#/notifications/alerts">
+        <CDropdownItem href="/#/notifications/alerts">
           <CIcon icon={cilBell} className="me-2" />
           Notification
           <CBadge color="info" className="ms-2">
@@ -40,7 +48,7 @@ const AppHeaderDropdown = () => {
           </CBadge>
         </CDropdownItem>
         
-        <CDropdownItem href="http://localhost:3000/#/charts">
+        <CDropdownItem href="/#/charts">
           <CIcon icon={cilTask} className="me-2" />
           Perfomance
         </CDropdownItem>
@@ -49,7 +57,7 @@ const AppHeaderDropdown = () => {
        
         
         <CDropdownDivider />
-        <CDropdownItem href="http://localhost:3000/#/login">
+        <CDropdownItem onClick={handleLogout}>
           <CIcon icon={cilLockLocked} className="me-2" />
           Log Out
         </CDropdownItem>

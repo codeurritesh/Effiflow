@@ -44,12 +44,12 @@ const AppHeader = () => {
         </CHeaderNav>
         <CHeaderNav>
           <CNavItem>
-            <CNavLink href="http://localhost:3000/#/notifications/alerts">
+            <CNavLink href="/notifications/alerts">
               <CIcon icon={cilBell} size="lg" />
             </CNavLink>
           </CNavItem>
           <CNavItem>
-            <CNavLink href="http://localhost:3000/#/theme/typography">
+            <CNavLink href="/theme/typography">
               <CIcon icon={cilList} size="lg" />
             </CNavLink>
           </CNavItem>
