@@ -22,7 +22,9 @@ Effiflow is a powerful business process automation platform designed to streamli
 - Explore different modules and functionalities within the platform.
 
 ## Contributors
-
+1. [@philomathtanya](https://github.com/philomathtanya)
+2.  [@Shashank](https://github.com/shashank026)
+3.  [@YashAg](https://github.com/yashagrawal213)
 
 
 Feel free to expand this README by including more detailed instructions, guidelines for contributors, or any additional information relevant to the Effiflow project and its repository.
