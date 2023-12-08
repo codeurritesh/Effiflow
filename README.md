@@ -2,6 +2,10 @@
 
 Effiflow is a powerful business process automation platform designed to streamline operations and provide insightful analytics for businesses of all sizes. This repository contains the source code and assets for Effiflow's system.
 
+![Untitled (500 x 180 px)](https://github.com/codeurritesh/Effiflow/assets/73749372/9d1d0827-731e-4397-9e68-1f72c991c271)
+
+
+
 ## Features
 
 - Streamlined user registration and authentication
